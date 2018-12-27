@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
+{% load static %}
+<script src="{% static 'home/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static 'home/home.js' %}"></script>
+<link rel="stylesheet" href="{% static 'home/home.css' %}">
+<title>home</title>
+</head>
+<body>
+<h2>home template!</h2>
+{{ hour }}時{{ minute }}分です。<br>
+{{ message | safe }}<p />
+<hr />
+<span class='green'>green</span>
+<span class='red'>red</span>
+<span class='blue'>blue</span>
+<hr />
+<a href='../file_upload/'>file_upload</a><p />
+<hr />
+<div id="outarea_aa">outarea_aa</div>
+<div id="outarea_bb">outarea_bb</div>
+<div id="outarea_cc">outarea_cc</div>
+<div id="outarea_dd">outarea_dd</div>
+<div id="outarea_ee">outarea_ee</div>
+<div id="outarea_ff">outarea_ff</div>
+<div id="outarea_gg">outarea_gg</div>
+<div id="outarea_hh">outarea_hh</div>
+<hr />
+home.html<p />
+Dec/27/2018 PM 14:02<p />
+</body>
+</html>

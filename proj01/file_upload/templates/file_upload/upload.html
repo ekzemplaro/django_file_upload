@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
+<title>ファイルアップロード</title>
+</head>
+<body>
+    <h1>ファイルをアップロード</h1>
+    <form method="POST" enctype="multipart/form-data">
+	{% csrf_token %}
+	{{ form.as_p }}
+      <button type="submit">アップロード</button>
+    </form>
+<hr />
+Dec/26/2018 PM 17:59<p />
+</body>
+</html>
