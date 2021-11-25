@@ -1,6 +1,7 @@
-__pycache__/
-venv
-*.pyc
-staticfiles
 .env
+*.jar
+*.dll
+*.pyc
+*.class
+__pycache__
 db.sqlite3
